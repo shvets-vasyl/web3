@@ -1,0 +1,33 @@
+@use "./utils" as *;
+
+// viewport
+
+:root {
+  --viewport: 1440;
+
+  @include mobile {
+    --viewport: 375;
+  }
+}
+
+// fonts
+
+:root {
+  --font-regular: "NeueMontrealRegular";
+  --font-medium: "NeueMontrealMedium";
+}
+
+// transitions
+
+:root {
+  --default-ease: cubic-bezier(0.24, 1, 0.36, 1);
+}
+
+// colors
+
+:root {
+  --c-black: #090909;
+  --c-white: #FAFAFA;
+  --c-accent: #D5F430;
+  --c-grey: #70707B;
+}
