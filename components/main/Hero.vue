@@ -36,7 +36,7 @@
               <SvgButtonTemplateTransparentMob class="mob" />
             </div>
 
-            <a class="btn-buy" href="#" target="_blank">
+            <a class="btn-buy" href="https://buy2.web3ai.com/" target="_blank">
               <CommonButton text="BUY NOW" accent />
             </a>
           </div>

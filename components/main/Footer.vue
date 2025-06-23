@@ -116,13 +116,13 @@
           <h2 class="h2">
             Together <br /><span class="accent">to innovate!</span>
           </h2>
-          <a href="#" class="join-btn" target="_blank">
+          <a href="https://buy2.web3ai.com/" class="join-btn" target="_blank">
             <CommonButton text="Join Presale" accent />
           </a>
         </div>
 
         <div class="btn-wrap">
-          <a href="#" target="_blank">
+          <a href="https://buy2.web3ai.com/" target="_blank">
             <CommonButton text="contact us" grey />
           </a>
         </div>
@@ -162,38 +162,38 @@ const toggleSection = (name: string) => {
 const about = [
   {
     text: "Tokenomics",
-    link: "#",
+    link: "https://web3ai.com/tokenomics?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "Whitepapper",
-    link: "#",
+    link: "https://web3ai.com/web3ai-whitepaper.pdf?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "Litepapper",
-    link: "#",
+    link: "https://web3ai.com/web3ai-litepaper.pdf?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "Road-map",
-    link: "#",
+    link: "https://web3ai.com/roadmap?utm_source=meta&utm_medium=ppc1",
   },
 ];
 
 const products = [
   {
     text: "AI-Powered Risk Management",
-    link: "#",
+    link: "https://web3ai.com/product/ai-powered-risk-management?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "Crypto Arbitrage Bot",
-    link: "#",
+    link: "https://web3ai.com/product/crypto-arbitrage-bot?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "Crypto Staking Advisor",
-    link: "#",
+    link: "https://web3ai.com/product/crypto-staking-advisor?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "Crypto Lending & Borrowing Advisor",
-    link: "#",
+    link: "https://web3ai.com/product/crypto-lending-borrowing-advisor?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "Crypto Price Prediction Tool",
@@ -201,7 +201,7 @@ const products = [
   },
   {
     text: "Crypto Scam Detector",
-    link: "#",
+    link: "https://web3ai.com/product/crypto-scam-detector?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "ICO & Token Sale Advisor",
@@ -217,30 +217,30 @@ const products = [
   },
   {
     text: "DeFi Yield Farming Advisor",
-    link: "#",
+    link: "https://web3ai.com/product/defi-yield-farming-advisor?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "AI Crypto Trading Bot",
-    link: "#",
+    link: "https://web3ai.com/product/ai-crypto-trading-bot?utm_source=meta&utm_medium=ppc1",
   },
   {
     text: "Crypto News Aggregator",
-    link: "#",
+    link: "https://web3ai.com/product/crypto-news-aggregator?utm_source=meta&utm_medium=ppc1",
   },
 ];
 
 const community = [
   {
     text: "Twitter",
-    link: "#",
+    link: "https://x.com/Web3Ai_Token",
   },
   {
     text: "Telegram",
-    link: "#",
+    link: "https://t.me/Web3Ai_Token",
   },
   {
     text: "Instagram",
-    link: "#",
+    link: "https://www.instagram.com/web3ai_token/",
   },
   {
     text: "Facebook",

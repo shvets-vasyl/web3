@@ -70,7 +70,7 @@
       </div>
 
       <div class="btn-wrap">
-        <a href="#" target="_blank">
+        <a href="https://buy2.web3ai.com/" target="_blank">
           <CommonButton text="BUY WEB3AI" accent />
         </a>
       </div>
