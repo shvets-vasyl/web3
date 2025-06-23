@@ -21,7 +21,7 @@
 				<img class="coins" src="/images/coins.png" alt="">
 
 				<div class="box-1">
-					<a href="https://buy2.web3ai.com/" target="_blank">
+					<a href="https://web3ai.com/product/defi-yield-farming-advisor?utm_source=meta&utm_medium=ppc1" target="_blank">
 						<CommonButton text="Buy $WAI" accent />
 					</a>
 					<a href="https://web3ai.com/web3ai-whitepaper.pdf?utm_source=meta&utm_medium=ppc1" target="_blank">

@@ -36,7 +36,7 @@
               <SvgButtonTemplateTransparentMob class="mob" />
             </div>
 
-            <a class="btn-buy" href="https://buy2.web3ai.com/" target="_blank">
+            <a class="btn-buy" href="https://web3ai.com/product/defi-yield-farming-advisor?utm_source=meta&utm_medium=ppc1" target="_blank">
               <CommonButton text="BUY NOW" accent />
             </a>
           </div>

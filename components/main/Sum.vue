@@ -70,7 +70,7 @@
       </div>
 
       <div class="btn-wrap">
-        <a href="https://buy2.web3ai.com/" target="_blank">
+        <a href="https://web3ai.com/product/defi-yield-farming-advisor?utm_source=meta&utm_medium=ppc1" target="_blank">
           <CommonButton text="BUY WEB3AI" accent />
         </a>
       </div>
