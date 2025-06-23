@@ -246,32 +246,20 @@ const community = [
     text: "Instagram",
     link: "https://www.instagram.com/web3ai_token/",
   },
-  {
-    text: "Facebook",
-    link: "#",
-  },
-  {
-    text: "Medium",
-    link: "#",
-  },
-  {
-    text: "CoinMarketCap",
-    link: "#",
-  },
 ];
 
 const learn = [
   {
     text: "Wiki",
-    link: "#",
+    link: "https://buy2.web3ai.com/?utm_source=meta&utm_medium=ppc1 (https://web3ai.com/?utm_source=meta&utm_medium=ppc1)",
   },
   {
     text: "Blog",
-    link: "#",
+    link: "https://buy2.web3ai.com/?utm_source=meta&utm_medium=ppc1 (https://web3ai.com/?utm_source=meta&utm_medium=ppc1)",
   },
   {
     text: "Brand Kit",
-    link: "#",
+    link: "https://buy2.web3ai.com/?utm_source=meta&utm_medium=ppc1 (https://web3ai.com/?utm_source=meta&utm_medium=ppc1)",
   },
 ];
 </script>
