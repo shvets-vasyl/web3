@@ -119,7 +119,7 @@
   margin-bottom: 2.9375rem;
 
 	@include mobile {
-		padding-top: 3.625rem;
+		padding-top: 1.5rem;
 		padding-bottom: 1rem;
 		margin-bottom: .75rem;
 	}
