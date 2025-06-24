@@ -150,7 +150,7 @@
 }
 .descr {
   width: 17.8rem;
-  color: #51525c;
+  color: #fff;
   margin-top: 1rem;
   margin-left: 5.625rem;
 
