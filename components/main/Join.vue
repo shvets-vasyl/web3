@@ -28,6 +28,15 @@
           </div>
         </div>
       </div>
+
+			<div class="btn-wrap">
+        <a
+          href="https://buy2.web3ai.com/"
+          target="_blank"
+        >
+          <CommonButton text="Enter the Giveaway" accent />
+        </a>
+      </div>
     </div>
   </section>
 </template>
@@ -159,6 +168,17 @@ const items = [
     left: 0;
     padding-left: 1.6875rem;
     padding-bottom: 1rem;
+  }
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+	margin-top: 2.5rem;
+}
+.btn-wrap a {
+  @include mobile {
+    width: 100%;
   }
 }
 </style>

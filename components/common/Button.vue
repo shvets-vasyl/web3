@@ -27,6 +27,7 @@ defineProps<{
   position: relative;
 	transition: all .3s ease;
 	text-transform: uppercase;
+	white-space: nowrap;
 	@include mobile {
 		width: 100%;
 		font-size: .875rem;

@@ -14,15 +14,16 @@
 
       <div class="body">
         <h1 class="title h1">
-          <div>Not Another Hype Token</div>
-          <div><span class="accent">$WAI Unlocks</span></div>
-          <div>a Real AI Ecosystem</div>
+          <div>Not Another</div>
+					<div>Hype Token</div>
+          <div><span class="accent">— $WAI Unlocks</span></div>
+          <div>a Real AI</div>
+					<div>Ecosystem</div>
           <div>for <span class="accent">Crypto Investors</span></div>
         </h1>
 
         <p class="p1 descr">
-          10 winners. 3 months. Don’t miss your shot to claim your share and
-          join the future of Web3.
+          Join the Presale and Get Access to 8 AI-Powered Tools to Help You Analyze, Protect, and Grow Your Crypto
         </p>
       </div>
 
@@ -36,7 +37,7 @@
               <SvgButtonTemplateTransparentMob class="mob" />
             </div>
 
-            <a class="btn-buy" href="https://web3ai.com/product/defi-yield-farming-advisor?utm_source=meta&utm_medium=ppc1" target="_blank">
+            <a class="btn-buy" href="https://buy2.web3ai.com/" target="_blank">
               <CommonButton text="BUY NOW" accent />
             </a>
           </div>
@@ -82,15 +83,15 @@ const amounts = [
 	},
 	{
 		title: "amount raised",
-		text: "$8.39M"
+		text: "$8.48M"
 	},
 	{
 		title: "current price",
 		text: "$0.000443"
 	},
 	{
-		title: "next price",
-		text: "$0.00465"
+		title: "LISTING PRICE",
+		text: "$0.00524"
 	},
 ]
 
@@ -98,11 +99,12 @@ const amounts = [
 <style scoped lang="scss">
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   padding-bottom: 3.125rem;
 
 	@include mobile {
 		padding-bottom: 1rem;
+		height: 100vh;
 	}
 }
 .logo {

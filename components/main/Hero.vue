@@ -36,45 +36,35 @@
               <SvgButtonTemplateTransparentMob class="mob" />
             </div>
 
-            <a class="btn-buy" href="https://web3ai.com/product/defi-yield-farming-advisor?utm_source=meta&utm_medium=ppc1" target="_blank">
+            <a class="btn-buy" href="https://buy2.web3ai.com/" target="_blank">
               <CommonButton text="BUY NOW" accent />
             </a>
           </div>
         </div>
         <div class="right">
 					<SvgHeroBox class="box-svg" />
-					<SvgHeroBoxMob class="box-svg-mob" />
+					<SvgHeroBoxMob2 class="box-svg-mob" />
 
 					<div class="box-content">
+						<div class="progress-wrap">
 						<div class="progress-bar">
 							<div class="bar" />
 						</div>
-
-						<div class="box-info">
-							<p>USD Raised</p>
-							<p><span>3,439,934 USD</span> / 5,000,000 USD</p>
+						<div class="percent-progress">
+							<SvgPercentProgress2 class="desk" />
+							<SvgPercentProgress2Mob class="mob" />
+							<p>32%</p>
+						</div>
 						</div>
 
-						<div class="prices">
-							<div class="price-item">
-								<SvgHeroPriceBox class="price-box" />
-								<SvgHeroPriceBoxMob class="price-box-mob" />
+						<div class="box-info">
+							<p><span>REMAINED TOKENS</span> 1.26M</p>
+						</div>
 
-								<div class="price-content">
-									<p class="price-text">current price</p>
-									<p class="price p1">$0.0056</p>
-								</div>
-							</div>
-
-							<div class="price-item">
-								<SvgHeroPriceBox class="price-box" />
-								<SvgHeroPriceBoxMob class="price-box-mob" />
-
-								<div class="price-content">
-									<p class="price-text">listing price</p>
-									<p class="price p1">$0.086</p>
-								</div>
-
+						<div class="amounts">
+							<div v-for="amount, i in amounts" :key="i" class="amount">
+								<p class="amount-title">{{ amount.title }}</p>
+								<p class="amount-text p1">{{ amount.text }}</p>
 							</div>
 						</div>
 					</div>
@@ -84,7 +74,26 @@
     </div>
   </section>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const amounts = [
+	{
+		title: "total tokens sold",
+		text: "23.4B"
+	},
+	{
+		title: "amount raised",
+		text: "$8.48M"
+	},
+	{
+		title: "current price",
+		text: "$0.000443"
+	},
+	{
+		title: "LISTING PRICE",
+		text: "$0.00524"
+	},
+]
+</script>
 <style scoped lang="scss">
 .hero {
   position: relative;
@@ -168,6 +177,15 @@
 		flex-direction: column;
 	}
 }
+.amount-title {
+	font-size: .75rem;
+	font-family: var(--font-medium);
+	text-transform: uppercase;
+	color: var(--c-grey)
+}
+.amount:nth-child(3) .amount-text {
+	color: var(--c-accent);
+}
 .left {
   display: flex;
   align-items: flex-end;
@@ -192,6 +210,26 @@
 		width: 10.6875rem;
 		margin-left: auto;
 	}
+}
+.progress-wrap {
+	display: flex;
+	gap: .75rem;
+}
+.percent-progress {
+	flex: 0 0 3rem;
+	position: relative;
+}
+.percent-progress p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: var(--c-black);
+	line-height: 1;
+	margin-top: -0.1875rem;
+	font-size: .875rem;
+	text-transform: uppercase;
+	font-family: var(--font-medium);
 }
 .coins-icons {
   position: absolute;
@@ -266,7 +304,7 @@
 	margin-bottom: .5rem;
 
 	@include mobile {
-		height: 1rem;
+		height: 1.4rem;
 		padding: .125rem;
 		margin-bottom: .25rem;
 	}
@@ -279,15 +317,14 @@
 	background-repeat: no-repeat;
 	background-position: 50%;
 	position: relative;
-	width: 31%;
+	width: 32%;
 }
 .box-info {
-	display: flex;
-	justify-content: space-between;
 	font-size: .875rem;
 	line-height: 120%;
 	text-transform: uppercase;
 	margin-bottom: 1rem;
+	text-align: center;
 
 	@include mobile {
 		font-size: .625rem;
@@ -297,47 +334,33 @@
 .box-info p span {
 	color: var(--c-grey);
 }
-.prices {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: .5rem;
-}
-.price-item {
-	position: relative;
-}
-.price-box {
-	width: 100%;
+.amounts {
+	display: flex;
+
 	@include mobile {
-		display: none;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 }
-.price-box-mob {
-	display: none;
+.amount:not(:last-child) {
+	padding-right: .75rem;
+	margin-right: .75rem;
+	border-right: .0625rem solid var(--c-grey);
 	@include mobile {
-		display: block;
+		margin-right: 0;
+		padding-right: 0;
 	}
 }
-.price-content {
-	position: absolute;
-	top: 0.5rem;
-	left: 1rem;
-}
-.price-text {
-	text-transform: uppercase;
-	font-size: .75rem;
-	line-height: 140%;
-	color: var(--c-grey);
+.amount {
 	@include mobile {
-		font-size: .625rem;
+margin-bottom: .75rem;
+text-align: center;
 	}
 }
-.price {
+.amount:nth-child(2) {
 	@include mobile {
-		font-size: .75rem;
+		border: none;
 	}
-}
-.price-item:first-child .price {
-	color: var(--c-accent)
 }
 .gradient {
 	height: 14.125rem;

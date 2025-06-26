@@ -120,13 +120,13 @@
           <h2 class="h2">
             Together <br /><span class="accent">to innovate!</span>
           </h2>
-          <a href="https://web3ai.com/product/defi-yield-farming-advisor?utm_source=meta&utm_medium=ppc1" class="join-btn" target="_blank">
+          <a href="https://buy2.web3ai.com/" class="join-btn" target="_blank">
             <CommonButton text="Join Presale" accent />
           </a>
         </div>
 
         <div class="btn-wrap">
-          <a href="https://web3ai.com/product/defi-yield-farming-advisor?utm_source=meta&utm_medium=ppc1" target="_blank">
+          <a href="https://buy2.web3ai.com/" target="_blank">
             <CommonButton text="contact us" grey />
           </a>
         </div>
