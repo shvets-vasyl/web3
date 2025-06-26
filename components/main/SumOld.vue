@@ -163,18 +163,15 @@ const currentStageIndex = computed(() => {
 });
 const currentStagePrice = computed(() => stagePrices[currentStageIndex.value]);
 
-const startPrice = 0.000443; // ціна покупки токена (наприклад, Stage 9)
+const listingPrice = 0.000443; // 🔹 активний стейдж
 
 const tokens = computed(() => {
   const investment = parseFloat(inputValue.value) || 0;
-  return investment / startPrice;
+  return investment / currentStagePrice.value;
 });
 
 const result = computed(() => {
-  const investment = parseFloat(inputValue.value) || 0;
-  const futurePrice = stagePrices[currentStageIndex.value];
-  const finalValue = tokens.value * futurePrice;
-  return finalValue - investment;
+  return tokens.value * listingPrice;
 });
 
 // 🔹 Скидання
