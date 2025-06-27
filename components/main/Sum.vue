@@ -171,10 +171,8 @@ const tokens = computed(() => {
 });
 
 const result = computed(() => {
-  const investment = parseFloat(inputValue.value) || 0;
   const futurePrice = stagePrices[currentStageIndex.value];
-  const finalValue = tokens.value * futurePrice;
-  return finalValue - investment;
+  return tokens.value * futurePrice;
 });
 
 // 🔹 Скидання
