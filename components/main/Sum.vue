@@ -49,7 +49,7 @@
               >
                 <SvgSlideBtn class="slide-btn-icon" />
 
-                <div class="percent-view">
+                <div class="percent-view" :class="{toLeft: +progressPercent.toFixed(0) > 80}">
                   <div class="percent-view-text">
                     {{ progressPercent.toFixed(0) + "%" }}
                   </div>
@@ -484,11 +484,15 @@ onBeforeUnmount(stopDrag);
 }
 .percent-view {
   position: absolute;
-  right: 100%;
+  left: 100%;
   top: 50%;
   transform: translateY(-50%);
   width: 3rem;
   margin-right: 0.25rem;
+}
+.percent-view.toLeft {
+	left: auto;
+	right: 100%;
 }
 .percent-view-text {
   font-size: 0.875rem;
