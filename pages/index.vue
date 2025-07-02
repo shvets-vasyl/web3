@@ -2,11 +2,11 @@
   <main class="main-page">
 		<MainHero />
 		<!-- <MainJoin /> -->
-		<MainDrive />
-		<MainSum />
-		<MainPotential />
-		<MainPartners />
-		<MainFooter />
+		<MainDrive class="text-anim" />
+		<MainSum class="text-anim" />
+		<MainPotential class="text-anim" />
+		<MainPartners class="text-anim" />
+		<MainFooter class="text-anim" />
   </main>
 </template>
 <script setup lang="ts">

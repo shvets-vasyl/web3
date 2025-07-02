@@ -1,11 +1,11 @@
 <template>
   <main class="main-page">
 		<MainHero2 />
-		<MainDrive2 />
-		<MainSum />
-		<MainPotential />
-		<MainPartners />
-		<MainFooter />
+		<MainDrive2 class="text-anim" />
+		<MainSum class="text-anim" />
+		<MainPotential class="text-anim" />
+		<MainPartners class="text-anim" />
+		<MainFooter class="text-anim" />
   </main>
 </template>
 <script setup lang="ts">

@@ -44,7 +44,7 @@
           <div class="products-content col-content">
             <div class="left">
               <a
-                v-for="{ link, text } in products.slice(0, 7)"
+                v-for="{ link, text } in products.slice(0, 4)"
                 :key="text"
                 :href="link"
 								target="_blank"
@@ -55,7 +55,7 @@
             </div>
             <div class="right">
               <a
-                v-for="{ link, text } in products.slice(7)"
+                v-for="{ link, text } in products.slice(4)"
                 :key="text"
                 :href="link"
                 class="col-link p1"
@@ -200,24 +200,8 @@ const products = [
     link: "https://web3ai.com/product/crypto-lending-borrowing-advisor?utm_source=meta&utm_medium=ppc1",
   },
   {
-    text: "Crypto Price Prediction Tool",
-    link: "https://buy2.web3ai.com/?utm_source=meta&utm_medium=ppc1 (https://web3ai.com/?utm_source=meta&utm_medium=ppc1)",
-  },
-  {
     text: "Crypto Scam Detector",
     link: "https://web3ai.com/product/crypto-scam-detector?utm_source=meta&utm_medium=ppc1",
-  },
-  {
-    text: "ICO & Token Sale Advisor",
-    link: "https://buy2.web3ai.com/?utm_source=meta&utm_medium=ppc1 (https://web3ai.com/?utm_source=meta&utm_medium=ppc1)",
-  },
-  {
-    text: "Crypto Trading Assistant",
-    link: "https://buy2.web3ai.com/?utm_source=meta&utm_medium=ppc1 (https://web3ai.com/?utm_source=meta&utm_medium=ppc1)",
-  },
-  {
-    text: "Crypto Portfolio Optimizer",
-    link: "https://buy2.web3ai.com/?utm_source=meta&utm_medium=ppc1 (https://web3ai.com/?utm_source=meta&utm_medium=ppc1)",
   },
   {
     text: "DeFi Yield Farming Advisor",

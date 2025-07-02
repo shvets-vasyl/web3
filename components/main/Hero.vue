@@ -93,6 +93,7 @@ const amounts = [
 		text: "$0.00524"
 	},
 ]
+
 </script>
 <style scoped lang="scss">
 .hero {
