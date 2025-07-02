@@ -118,7 +118,7 @@
         </div>
         <div class="title">
           <h2 class="h2">
-            Together <br /><span class="accent">to innovate!</span>
+            Join  <br /><span class="accent">presale!</span>
           </h2>
           <a href="https://buy2.web3ai.com/" class="join-btn" target="_blank">
             <CommonButton text="Join Presale" accent />

@@ -3,8 +3,7 @@
     <img class="pil" src="/images/pil.png" alt="" />
     <div class="wrap _container">
       <h2 class="h2 title">
-        <div>sum <span class="accent">your profit</span></div>
-        <div>in the near <br class="mob" />future</div>
+        <div>Calculate  <span class="accent">profit</span></div>
       </h2>
 
       <div class="box">
@@ -83,7 +82,7 @@
 
             <CommonSubtitle class="predicted-price">
               <div>
-                <p class="p2">Listing Price</p>
+                <p class="p2">Launch price</p>
                 <p class="p2">0.005242</p>
               </div>
             </CommonSubtitle>

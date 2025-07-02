@@ -48,7 +48,7 @@ const items = [
 	},
 	{
 		title: "Receive Web3 AI<br />revenue share",
-		descr: "Stake $WAI to receive a revenue share proportional to your contribution – this will provide you with passive income within the project.",
+		descr: "$WAI to receive a revenue share proportional to your contribution – this will provide you with passive income within the project.",
 		image: "/images/potential-2.png"
 	},
 	{

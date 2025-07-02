@@ -1,7 +1,7 @@
 <template>
   <main class="main-page">
 		<MainHero />
-		<MainJoin />
+		<!-- <MainJoin /> -->
 		<MainDrive />
 		<MainSum />
 		<MainPotential />

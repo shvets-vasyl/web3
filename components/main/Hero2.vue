@@ -29,7 +29,7 @@
 
       <div class="foot">
         <div class="left">
-          <p class="text p1">PRESALE <span>ACTIVE NOW</span></p>
+          <p class="text p2">PRESALE <span>ACTIVE NOW</span></p>
           <div class="btn-wrap">
             <div class="coins">
               <IconCoins class="coins-icons" />
@@ -59,7 +59,7 @@
 						</div>
 
 						<div class="box-info">
-							<p><span>REMAINED TOKENS</span> 1.26M</p>
+							<p><span>Current stage:</span> 9</p>
 						</div>
 
 						<div class="amounts">
@@ -78,7 +78,7 @@
 <script setup lang="ts">
 const amounts = [
 	{
-		title: "total tokens sold",
+		title: "Tokens sold",
 		text: "23.4B"
 	},
 	{
@@ -90,7 +90,7 @@ const amounts = [
 		text: "$0.000443"
 	},
 	{
-		title: "LISTING PRICE",
+		title: "Launch price",
 		text: "$0.00524"
 	},
 ]
